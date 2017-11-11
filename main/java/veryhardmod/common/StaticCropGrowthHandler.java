@@ -1,4 +1,4 @@
-package com.example.examplemod;
+package veryhardmod.common;
 
 import net.minecraftforge.event.world.BlockEvent.CropGrowEvent.Pre;
 import net.minecraftforge.fml.common.eventhandler.Event.Result;

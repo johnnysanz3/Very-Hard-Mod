@@ -1,14 +1,14 @@
 [
 {
-  "modid": "examplemod",
-  "name": "Example Mod",
-  "description": "Example placeholder mod.",
+  "modid": "veryhardmod",
+  "name": "Very Hard Mod",
+  "description": "A mod to make minecraft very hard and better.  Ridiculous to disagree.",
   "version": "${version}",
   "mcversion": "${mcversion}",
   "url": "",
   "updateUrl": "",
-  "authorList": ["ExampleDude"],
-  "credits": "The Forge and FML guys, for making this example",
+  "authorList": ["partysub"],
+  "credits": "Thank you to partysub and boomadonna for looking past the grudge of getting something done in jappix",
   "logoFile": "",
   "screenshots": [],
   "dependencies": []

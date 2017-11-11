@@ -1,4 +1,4 @@
-package com.example.examplemod;
+package veryhardmod.common;
 
 import net.minecraftforge.event.entity.EntityTravelToDimensionEvent;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
