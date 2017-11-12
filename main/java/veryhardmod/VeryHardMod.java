@@ -17,9 +17,6 @@ public class VeryHardMod
     @EventHandler
     public void init(FMLInitializationEvent event)
     {
-        // some example code
-        System.out.println("DIRT BLOCK >> "+Blocks.DIRT.getUnlocalizedName());
-        
         MinecraftForge.EVENT_BUS.register(StaticDimensionHandler.class);
         MinecraftForge.EVENT_BUS.register(StaticCropGrowthHandler.class);
     }
