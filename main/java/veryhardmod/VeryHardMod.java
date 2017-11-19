@@ -1,9 +1,12 @@
 package veryhardmod;
 
+import veryhardmod.common.StaticBreedingHandler;
 import veryhardmod.common.StaticCropGrowthHandler;
 import veryhardmod.common.StaticDimensionHandler;
 import net.minecraft.init.Blocks;
 import net.minecraftforge.common.MinecraftForge;
+import net.minecraftforge.event.entity.living.BabyEntitySpawnEvent;
+import net.minecraftforge.event.entity.living.LivingEvent.LivingUpdateEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
@@ -19,5 +22,6 @@ public class VeryHardMod
     {
         MinecraftForge.EVENT_BUS.register(StaticDimensionHandler.class);
         MinecraftForge.EVENT_BUS.register(StaticCropGrowthHandler.class);
+        MinecraftForge.EVENT_BUS.register(StaticBreedingHandler.class);
     }
 }
