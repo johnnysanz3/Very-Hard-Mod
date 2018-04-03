@@ -24,6 +24,6 @@ public class VeryHardMod
         MinecraftForge.EVENT_BUS.register(StaticDimensionHandler.class);
         MinecraftForge.EVENT_BUS.register(StaticCropGrowthHandler.class);
         MinecraftForge.EVENT_BUS.register(StaticBreedingHandler.class);
-        MinecraftForge.ORE_GEN_BUS.register(StaticOreGenerationHandler.class);
+       // MinecraftForge.ORE_GEN_BUS.register(StaticOreGenerationHandler.class);
     }
 }
