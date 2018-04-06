@@ -8,10 +8,10 @@ public class StaticDimensionHandler {
     public static void entityTravelToDimension(EntityTravelToDimensionEvent event) {
         System.out.println("Entity traveled to dimension!"+event.getDimension());
 
-        System.out.println(event.getEntity().getPosition().getX());
-        System.out.println(event.getEntity().getPosition().getZ());
-        System.out.println(event.getDimension()); //to dimension
-        System.out.println(event.getEntity().dimension); //from dimension
+        //System.out.println(event.getEntity().getPosition().getX());
+        //System.out.println(event.getEntity().getPosition().getZ());
+        //System.out.println(event.getDimension()); //to dimension
+        //System.out.println(event.getEntity().dimension); //from dimension
         
         //-1 nether
         //0 overworld
